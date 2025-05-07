@@ -32,7 +32,7 @@ export default function NovoProduto() {
 
     const listaAtualizada = [...produtosExistentes, novoProduto];
 
-    // Redireciona para página inicial com os produtos atualizados
+
     router.push(`/?produtos=${encodeURIComponent(JSON.stringify(listaAtualizada))}`);
   };
 
